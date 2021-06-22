@@ -1,15 +1,3 @@
-const webTechs = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "Redux",
-  "Node",
-  "MongoDB",
-];
-
-const mernStack = ["MongoDB", "Express", "React", "Node"];
-
 //Iterate 0 to 10 using for loop, do the same using while and do while loop
 console.log("For loop");
 for (let i = 0; i <= 10; i++) {
