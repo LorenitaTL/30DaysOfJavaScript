@@ -84,9 +84,9 @@ for (let i = 0; i < countries.length; i++) {
   }
 }
 console.log(
-  landCountries.length != 0
-    ? landCountries
-    : "All these countries are without land"
+  landCountries.length != 0 ?
+  landCountries :
+  "All these countries are without land"
 );
 
 // In above countries array, check if there is a country or countries end with a substring 'ia'.
@@ -220,6 +220,6 @@ for (let i = 0; i < countries.length; i++) {
 console.log(countryHighest + " Is the highest");
 
 // Reverse the countries array and capitalize each country and stored it as an array
-for (let i = countries.length-1; i >=0; i--) {
+for (let i = countries.length - 1; i >= 0; i--) {
   console.log(countries[i].toUpperCase())
 }
